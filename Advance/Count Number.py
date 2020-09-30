@@ -4,6 +4,8 @@
 Number = int(input("Please Enter any Number: "))
 Count = 0
 while(Number > 0):
+    # here '//' used in the below divison is also known as floor divison it discards the fractional part
+    #'/' divison in python is also known as classic division it return a float value 
     Number = Number // 10
     Count = Count + 1
 
